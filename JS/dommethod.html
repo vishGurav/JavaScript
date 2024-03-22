@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Method</title>
+    <style>
+        /* #img
+        {
+            height: 200px;
+            width: 200px;
+            margin: 100px;
+        }
+        img
+        {
+            height: 100%;
+            width: 100%;
+        } */
+
+        /* img slider */
+
+        #img-slider
+        {
+            height: 400px;
+            width: 100%;
+        }
+
+        #img-slider img
+        {
+            height: 100%;
+            width: 100%;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <!-- <div id="heading">
+        <h1 class="h-content">Hello</h1>
+    </div>
+    <div id="details">
+        <h1 class="d-head">Details</h1>
+        <p class="d-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non repudiandae molestiae explicabo expedita doloribus, minus dolor. Dolore rem molestiae, atque deleniti iste accusamus eos iusto ipsum. Minima, nihil obcaecati. Mollitia!</p>
+    </div>
+    <input type="password" minlength="8" maxlength="12" size="20" placeholder="password" id="pwd"><hr>
+    <input type="checkbox" name="" id="c-box" onclick="togglePassword()"><label for="c-box">show password</label> -->
+
+<!-- !img show-hidden -->
+    <!-- <div id="img">
+        <img src="https://cdn.pixabay.com/photo/2014/12/12/19/45/lion-565820_1280.jpg" id="c-img" alt="">
+    </div>
+    <button onclick="hide()">hide</button>
+    <button onclick="show()">show</button>
+
+
+    <div id="img">
+        <img src="https://cdn.pixabay.com/photo/2014/12/12/19/45/lion-565820_1280.jpg" id="c-img-1" alt="">
+    </div>
+    <button onclick="togglebtn()" id="btn">hide</button> -->
+
+    <!-- !img slider -->
+
+    <section id="img-slider-parent">
+        <div id="img-slider">
+            <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg" alt="" id="img">
+        </div>
+        <div id="img-slider-btn">
+            <button onclick="imgSliderPre()">Previous</button>
+            <button onclick="imgSliderNext()">Next</button>
+        </div>
+    </section>
+
+
+<!-- ! increment using event listner-->
+
+    <h1>counter: <span id="inc">0</span></h1>
+    <button id="btn-inc">increment</button>
+    <button id="btn-dec">decrement</button>
+    <script src="./dommethod.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#div-parent-user
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    background-color: aliceblue;
+}
+
+#div-child
+{
+    height: 500px;
+    width: 350px;
+    margin-top: 40px;
+}
+
+#div-child img
+{
+    height: 60%;
+    width: 100%;
+}
+
+#div-parent-products
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+}
+
+#div-child-products
+{
+    height: 430px;
+    width: 1000px;
+    border: 2px solid black;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-parent
+{
+    height: 100%;
+    width: 35%;
+}
+
+.detail-parent
+{
+    height: 100%;
+    width: 60%;
+}
+
+.detail-parent h1,p,h3,h5
+{
+    margin-bottom: 30px;
+}
+
+#div-child-products img
+{
+    height: 100%;
+    width: 100%;
+}
+
+svg{
+    height: 60px;
+    width:60px;
+    position: relative;
+    top: 15px;
+}
+
+#div-parent-movie
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    background-color: aliceblue;
+}
+
+#div-child-movie
+{
+    height: 500px;
+    width: 350px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#div-child-movie img
+{
+    height: 60%;
+    width: 100%;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,51 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+form
+{
+    border: 2px solid goldenrod;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+form input,button
+{
+    padding:15px;
+    margin: 10px 10px;
+    border:1px solid goldenrod;
+    border-radius: 5px;
+    outline: none;
+}
+
+form button
+{
+    background-color: goldenrod;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+form input
+{
+    color: black;
+}
+
+form p
+{
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
